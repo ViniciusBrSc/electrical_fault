@@ -1,12 +1,8 @@
 # Final Project - Detecting Electrical Faults
 
----
-
 In this repository we present the final project of the Bootcamp of Data Science, Data Analytics & Machine Learning from Infnet Institute.
 
 This is a binary classification study using a dataset from Kaggle [1] that shows the time evolution of currents and voltages of a simulated three-phase electrical system in normal and faulty state.
-
----
 
 ## `code`
 
@@ -31,7 +27,6 @@ This is a binary classification study using a dataset from Kaggle [1] that shows
     * presentation 
 * `images`
     * results
----
 
 ## Group
 
