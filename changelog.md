@@ -13,6 +13,13 @@
     * **Standard scaler**.
     * fit(X_train, Y_train, batch_size=32, epochs=100, validation_data=(X_test, Y_test)).
 ---
-* **v4**: First cross-validation.
-    * 
+* **v4**: Cross-validation.
+    * Train-test split: **test_size=0.2**, random_state=42, stratify=Y. 
+    * Standard scaler.
+    * fit(X_train, Y_train, batch_size=32, **epochs=150**, validation_data=(X_test, Y_test)).
+    * **n_splits=4**.
 ---
+* **v5**: Preparing model for deploy.
+    * **Full dataset for training**.
+    * Standard scaler.
+    * fit(X, Y, batch_size=32, **epochs=1000**)
